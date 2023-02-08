@@ -1,0 +1,451 @@
+* {
+  padding: 0%;
+  margin: 0%;
+}
+
+body {
+  padding: 0%;
+  margin: 0%;
+  box-sizing: border-box;
+}
+
+.container {
+  padding: 3vw 6vw;
+}
+
+.flex {
+  display: flex;
+}
+
+.flex-ver {
+  flex-direction: column;
+}
+
+.just-between {
+  justify-content: space-between;
+}
+
+.alig-cntr {
+  align-items: center;
+}
+
+a {
+  text-decoration: none;
+  font-size: 1vw;
+  color: black;
+}
+
+.brand-logo img {
+  width: 5.9vw;
+}
+
+header {
+  padding: 2vw 4vw;
+}
+
+.p a {
+  border-top: 1px solid black;
+  border-bottom: 1px solid black;
+  font-size: 1.6vw;
+}
+
+nav a {
+  margin-right: 1vw;
+  font-size: 1.1vw;
+}
+
+.title {
+  font-size: 6vw;
+  color: #c4c4c4;
+  font-family: "TT Hoves";
+}
+
+.inner-card {
+  padding: 1vw 2vw;
+  font-size: 1vw;
+}
+
+.title span {
+  color: black;
+  font-weight: bold;
+}
+
+.grid {
+  display: grid;
+  grid-template-columns: auto auto auto auto auto;
+  gap: 2.6vw;
+}
+
+.cards img {
+  width: 100%;
+  margin: 2vw;
+}
+
+.featured {
+  margin-block: 2vw 6vw;
+  background: #fbfbfb;
+}
+
+.col2 img {
+  width: 10vw;
+}
+
+#des-btn{
+  font-size: 1.2vw;
+  background-color: white;
+  color: black;
+  margin: 3vw;
+  padding: 3vw;
+  border: none;
+}
+.quick-links a {
+  font-size: 1.6vw;
+}
+
+#formbtn{
+  font-size: 1.2vw;
+  background-color: black;
+  color: white;
+  margin: 3vw;
+  padding: 1.5vw 2vw;
+  border: none;
+}
+
+#des-btn img {
+  width: 1vw;
+  margin: 0 0.5vw;
+}
+
+.featured img {
+  width: 30vw;
+  margin: 2vw;
+}
+
+.des {
+  color: black;
+  font-size: 1vw;
+}
+
+.quality span {
+  color: black;
+  font-size: 1.2vw;
+  margin-left: 4vw;
+  word-wrap: normal;
+  width: 15vw;
+}
+
+.quality {
+  padding: 5vw 0;
+}
+
+h2 {
+  font-size: 5vw;
+  margin: 3vw;
+  color: #c4c4c4;
+}
+
+input,
+textarea {
+  width: 20vw;
+  background-color: #f3f3f3;
+  padding: 0.5vw 1vw;
+  border: none;
+  margin: 0.5vw 0;
+  outline: none;
+}
+
+.form span {
+  margin: 1vw;
+  font-size: 1vw;
+  color: black;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+/* #formbtn {
+  padding: 1vw 2vw;
+  font-size: 0.7vw;
+  background-color: black;
+  color: white;
+  margin: 2vw 0;
+  border: none;
+} */
+
+.form button {
+  padding: 2vw 4vw;
+  font-size: 1.5vw;
+  background-color: black;
+  color: white;
+}
+
+input[type="checkbox"] {
+  width: 3vw;
+}
+
+.pic img {
+  width: 60%;
+  margin: 7vw;
+}
+
+.form {
+  width: 20vw;
+}
+
+footer {
+  background-color: black;
+  color: white;
+  width: 100%;
+}
+
+footer .brand-logo img {
+  width: 10vw;
+  margin-right: 5vw;
+  margin: 5vw;
+}
+
+.foot-details .quick-links a {
+  color: var(--hopes);
+}
+
+.foot-details {
+  padding: 5%;
+  width: 100%;
+}
+
+.foot-details .link-add {
+  width: 50%;
+}
+h1 {
+  margin: 2.2vw 0;
+}
+
+.foot-details .link-add .quick-links {
+  width: 100%;
+  line-height: 220%;
+  margin: 0 5%;
+}
+
+.foot-details .link-add .address {
+  width: 70%;
+  line-height: 220%;
+  margin: 0 5%;
+}
+
+.inp-new {
+  width: 50%;
+  align-items: right;
+  padding-left: 20%;
+  position: relative;
+}
+
+.inp-new input[type="text"] {
+  margin-top: 5%;
+  margin-right: 5%;
+  padding: 1vw 1vw;
+  outline: none;
+  border: 2px solid var(--hopes);
+  background-color: var(--hopes);
+  color: var(--dracula);
+  border-radius: 5px;
+  width: 100%;
+  font-size: 1.5vw;
+}
+
+.inp-new #drop-down {
+  position: absolute;
+  right: 0;
+  top: 42%;
+  width: 8.5%;
+  border-radius: 0 4px 5px 0;
+}
+  
+.inp-new a img {
+  margin: 1vw;
+}
+
+.inp-new img {
+  background-color: var(--primary);
+}
+
+.copyright {
+  font-family: var(--font-5);
+  text-align: center;
+  padding: 3% 0;
+  box-shadow: 0 -2px 5px grey;
+}
+
+
+
+
+@media screen and (max-width: 768px) {
+  .grid {
+    display: grid;
+    grid-template-columns: auto auto auto auto;
+    gap: 2.6vw;
+  }
+  nav a {
+    display: none;
+  }
+
+  .inner-card {
+    font-size: 2vw;
+  }
+
+  .brand-logo img {
+    width: 10vw;
+  }
+
+  .quality span {
+    font-size: 1.5vw;
+  }
+
+  .quality {
+    flex-direction: column;
+    align-items: center;;
+  }
+  .q1 {
+    margin-bottom: 8vw;
+  }
+
+  .q1 span,  .q2 span {
+    font-size: 2.2vw;
+    width: 20vw;
+  }
+
+  .featured {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .connect {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .p a {
+    border-top: 1px solid black;
+    font-size: 2.6vw;
+  }
+
+ 
+
+ 
+
+  footer .brand-logo img {
+    width: 10vw;
+    margin-right: 2vw;
+    margin: 5%;
+  }
+  .description {
+    width: 40vw;
+    font-size: 2.4vw;
+  }
+  .form {
+    width: 80vw;
+}
+input,
+textarea {
+  width: 50vw;
+}
+.foot-details {
+  flex-direction: column;
+  width: 100%;
+}
+
+.foot-details .link-add {
+  flex-direction: column;
+  width: 100%;
+}
+
+.foot-details .link-add .quick-links{
+  flex-direction: column;
+  width: 100%;
+  margin-bottom: 5%;
+}
+.quick-links a {
+  font-size: 3vw;
+}
+
+.foot-details .link-add .address{
+  flex-direction: column;
+  width: 100%;
+  margin-bottom: 5%;
+}
+
+.foot-details .inp-new {
+  flex-direction: column;
+  width: 100%;
+  padding: 0;
+}
+
+.inp-new input[type="text"] {
+  width: 50%;
+}
+
+.inp-new #drop-down {
+  right: 45%;
+}
+}
+
+@media screen and (max-width: 568px) {
+  .grid {
+    display: grid;
+    grid-template-columns: auto auto auto;
+    gap: 2.6vw;
+  }
+  nav a {
+    display: none;
+  }
+  .inner-card {
+    font-size: 2.5vw;
+  }
+  .quality span {
+    font-size: 1.6vw;
+  }
+  .description {
+    width: 50vw;
+    font-size: 3vw;
+  }
+  .form {
+    width: 60vw;
+}
+input,
+textarea {
+  width: 50vw;
+}
+}
+
+@media screen and (max-width: 460px) {
+  .grid {
+    display: grid;
+    grid-template-columns: auto auto;
+    gap: 2.6vw;
+  }
+  .inner-card {
+    font-size: 2.5vw;
+  }
+  .form {
+    width: 60vw;
+}
+input,
+textarea {
+  width: 60vw;
+}
+}
+
+@media screen and (max-width: 360px) {
+  .grid {
+    display: grid;
+    grid-template-columns: auto;
+    gap: 2.6vw;
+  }
+  .inner-card {
+    font-size: 3vw;
+  }
+  .form {
+    width: 60vw;
+}
+input,
+textarea {
+  width: 70vw;
+}
+}
